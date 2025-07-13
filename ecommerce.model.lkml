@@ -6,7 +6,7 @@ connection: "default_bigquery_connection"
 
 label: "Cymbal Ecommerce" # Set label to easily identify this grouping of Explores in the main Explore list in the Looker menu
 
-include: "/order_details/views/*.view.lkml" # The '*' wildcard was used here to include all view files in this folder.
+include: "/views/*.view.lkml" # The '*' wildcard was used here to include all view files in this folder.
 
 ### Basic Explore definition ###
 # ## Business case for this example.
