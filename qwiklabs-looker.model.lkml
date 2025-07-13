@@ -2,7 +2,7 @@
 # This is a simple example model file as a starting point for learning how to write LookML. 
 ###
 
-connection: "default_bigquery_connection"
+connection: "bigquery_public_data_looker"
 
 label: "Cymbal Ecommerce" # Set label to easily identify this grouping of Explores in the main Explore list in the Looker menu
 
