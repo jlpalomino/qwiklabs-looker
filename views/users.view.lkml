@@ -82,7 +82,7 @@ view: users { # A view with the name 'users'
     sql: ${TABLE}.traffic_source ;;
   }
 
-  dimension_group: created_at { # Dimension groups create multiple dimensions with different time granularities, in a single declaration.
+  dimension_group: created { # Dimension groups create multiple dimensions with different time granularities, in a single declaration.
     type: time
     timeframes: [raw,time,date,week,month,quarter,year] # The different time grains to create dimensions for. They will be presented together in the Explore field-picker under one group label
     sql: ${TABLE}.created_at ;;
